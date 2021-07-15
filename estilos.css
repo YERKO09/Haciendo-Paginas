@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    color: #000f08;
+    margin: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+.nav-link:hover{
+    /*background-color: #004680;*/
+    /*border: 1px solid white;*/
+    border-bottom: 1px solid rgb(48, 48, 148);
+}
+
+.hero-section {
+    background-image: url('assets/bg-hero.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*padding: 8.25rem 8.25rem;*/
+    height: 800px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+form{
+    /*background-color: #0fbbdd88;*/
+    background: linear-gradient(90deg, rgba(24, 88, 224, 0.842) 0%, rgba(20, 35, 65, 0.747) 50%, rgba(32, 60, 121, 0.842) 100%);
+    float: right;
+    text-align: center;
+    width: 350px;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: 0.9;
+    border-radius: 2%;
+}
+
+.carousel-item{
+    height: 350px;
+}
+
+.carousel-caption h4{
+    background: linear-gradient(90deg, rgb(0, 81, 255) 0%, rgba(30, 125, 138, 0.747) 50%, rgb(1, 81, 255) 100%);
+
+}
+
+h2, h3, h5{
+    font-family: 'Titillium Web', sans-serif;
+}
